@@ -1,0 +1,86 @@
+body{
+  width: 100%;
+  background-image: url(../images/1000.jpg);
+}
+.main{
+  position: absolute;
+  display: inline-flex;
+  top: 20%;
+  right: 30%;
+  left: 30%;
+  width: 50%;
+  height: 400px;
+  justify-content: center;
+  border: 1px solid lightblue;
+  border-radius: 2.5%;
+}
+.heading{
+  font-family: serif;
+  font-weight: bold;
+  color: lightblue;
+  border-bottom: 1px solid lightblue;
+  width: 40%;
+  height: 10%;
+}
+form{
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  left: 25%;
+  height: 75%;
+  width: 100%;
+  justify-content: center;
+}
+#inputAmmount{
+  background-color: inherit;
+  border: 1px solid lightblue;
+  border-radius: 2.5%;
+  width: 50%;
+  height: 40px;
+  font-weight: bold;
+  color: darkgrey;
+}
+#inputAmmount:hover{
+  border: 3px solid skyblue;
+  border-radius: 3%;
+}
+.from{
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  left: 1%;
+  width: 50%;
+  height: 40px;
+  background-color: inherit;
+  border: 1px solid lightblue;
+  border-radius: 2.5%;
+}
+.from:hover{
+  border: 3px solid skyblue;
+  border-radius: 3%;
+}
+.to{
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  left: 1%;
+  width: 50%;
+  height: 40px;
+  background-color: inherit;
+  border: 1px solid lightblue;
+  border-radius: 2.5%;
+}
+.to:hover{
+  border: 3px solid skyblue;
+  border-radius: 3%;
+}
+.convert{
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  left: 5.5%;
+  width: 40%;
+  height: 40px;
+  background-color: lightblue;
+  border-radius: 2.5%;
+}
